@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "inventory_gap_solutionReactNative",
+    "slug": "inventory_gap_solutionReactNative",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "inventorygapsolutionreactnative",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/expo.icon"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#208AEF",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 76
+        }
+      ],
+      "@react-native-google-signin/google-signin"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "firebase": {
+        "apiKey": "AIzaSyDfb65Ukxf423Ea9yIHniKHqjaaCAtOHSE",
+        "authDomain": "smartstock-20d14.firebaseapp.com",
+        "projectId": "smartstock-20d14",
+        "storageBucket": "smartstock-20d14.firebasestorage.app",
+        "messagingSenderId": "897783793219",
+        "appId": "1:897783793219:web:f3ac5e0b7688a0a89236f6"
+      },
+      "googleWebClientId": "",
+      "googleIosClientId": "",
+      "router": {},
+      "eas": {
+        "projectId": "87ec46e2-3899-48b6-b777-ce74e7e59efa"
+      }
+    }
+  }
+}
